@@ -7,7 +7,8 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-     <Card/>
+     <Card number = '1'/>
+     <Card number = '2'/>
     </div>
   );
 };

@@ -1,8 +1,8 @@
-import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='nav'>This is nav</div>
+    <div className='nav'><h4>This is a navbar</h4></div>
+
   )
 }
 

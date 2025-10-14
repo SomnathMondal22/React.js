@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({number}) => {
   return (
     <div>
       <div className='card'>
         <h1>Somnath Mondal</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Software engineer</p>
+        <h4>This is a Card number: {number}</h4>
       </div>
     </div>
   )
