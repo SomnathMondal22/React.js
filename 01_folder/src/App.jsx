@@ -1,16 +1,12 @@
-import Card from "./Components/Card";
-import Navbar from "./Components/Navbar";
-
-const App = () => {
-  const user = "Somu";
-  let age = 25
+function App() {
+  
   return (
-    <div>
-      <Navbar/>
-     <Card number = '1'/>
-     <Card number = '2'/>
-    </div>
-  );
-};
+    <div><h1>This is my first react project</h1>
+    <br />
+    <p>Name: Somnath Mondal
+    </p>
+    <p>Age:25</p></div>
+  )
+}
 
-export default App;
+export default App
